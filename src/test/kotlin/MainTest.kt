@@ -26,4 +26,9 @@ class MainTest {
     fun `find2020Sum with list 1009 0 1011 returns 1009 1011`() {
         assertEquals(find2020Sum(listOf(1009, 0, 1011)), Pair(1009, 1011))
     }
+
+    @Test
+    fun `find2020Sum with list 1010 1009 1011 returns 1009 1011`() {
+        assertEquals(find2020Sum(listOf(1010, 1009, 1011)), Pair(1009, 1011))
+    }
 }
