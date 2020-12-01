@@ -50,8 +50,8 @@ class MainTest {
         assertEquals(find2020Triple(listOf(0, 505, 505, 1010)), Triple(505, 505, 1010))
     }
 
-//    @Test
-//    fun `find2020Triple with list 505, 0, 505, 1010 returns 505, 505, 1010`() {
-//        assertEquals(find2020Triple(listOf(505, 0, 505, 1010)), Triple(505, 505, 1010))
-//    }
+    @Test
+    fun `find2020Triple with list 505, 0, 505, 1010 returns 505, 505, 1010`() {
+        assertEquals(find2020Triple(listOf(505, 0, 505, 1010)), Triple(505, 505, 1010))
+    }
 }
