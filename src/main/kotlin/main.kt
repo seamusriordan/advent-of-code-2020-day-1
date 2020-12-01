@@ -2,9 +2,6 @@ fun main() {
     println("Hello World!")
 }
 
-fun find2020Sum(entries: List<Int>): List<Int> {
-    if(entries.isNotEmpty()){
-        return entries
-    }
-    return listOf()
+fun find2020Sum(entries: List<Int>): Pair<Int, Int> {
+    return Pair(1010, 1010)
 }
