@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test
 
 class MainTest {
     @Test
-    fun `one plus one is two`() {
-        assertEquals(2, 1+1)
+    fun `find2020Sum empty list returns empty list`() {
+        assertEquals(find2020Sum(listOf()), listOf<Int>())
     }
 }
