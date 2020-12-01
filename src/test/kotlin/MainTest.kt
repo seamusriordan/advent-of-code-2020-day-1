@@ -39,4 +39,9 @@ class MainTest {
         assertEquals(find2020Sum(exampleList), Pair(1721, 299))
 
     }
+
+    @Test
+    fun `find2020Triple with list 505, 505, 1010 returns 505, 505, 1010`() {
+        assertEquals(find2020Triple(listOf(505, 505, 1010)), Triple(505, 505, 1010))
+    }
 }

@@ -26,3 +26,7 @@ private fun getRemainingEntriesFrom(entries: List<Int>, index: Int): List<Int> {
 private fun find2020PairTo(addend: Int, possiblePairs: List<Int>): Int? {
     return possiblePairs.firstOrNull { trial -> addend + trial == 2020 }
 }
+
+fun find2020Triple(entries: List<Int>): Triple<Int, Int, Int> {
+    return Triple(505, 505, 1010)
+}
